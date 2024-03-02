@@ -269,6 +269,7 @@ GameObject:
   - component: {fileID: 386893433}
   - component: {fileID: 386893435}
   - component: {fileID: 386893434}
+  - component: {fileID: 386893436}
   m_Layer: 5
   m_Name: BottomBar
   m_TagString: Untagged
@@ -336,6 +337,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 386893432}
   m_CullTransparentMesh: 1
+--- !u!114 &386893436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 386893432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e5b5faef28ccdd4d96465787947483c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  barText: {fileID: 887829987}
+  personNameText: {fileID: 189591715}
+  currentScene: {fileID: 11400000, guid: 3ded9792ce318924ca71a3cfb80693d2, type: 2}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
