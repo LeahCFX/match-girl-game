@@ -12,6 +12,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e848a00c6f427d43a69c91e92afbf25, type: 3}
   m_Name: Typing
   m_EditorClassIdentifier: 
-  sentences: []
+  sentences:
+  - text: I am smart
+    character: {fileID: 11400000, guid: a9f4f0dd59ae9d04389d20674b83c8b0, type: 2}
+  - text: I look good
+    character: {fileID: 11400000, guid: a9f4f0dd59ae9d04389d20674b83c8b0, type: 2}
+  - text: I can handle this
+    character: {fileID: 11400000, guid: a9f4f0dd59ae9d04389d20674b83c8b0, type: 2}
+  - text: I am strong
+    character: {fileID: 11400000, guid: a9f4f0dd59ae9d04389d20674b83c8b0, type: 2}
+  - text: I will get through this
+    character: {fileID: 11400000, guid: a9f4f0dd59ae9d04389d20674b83c8b0, type: 2}
+  - text: Everything is okay
+    character: {fileID: 11400000, guid: a9f4f0dd59ae9d04389d20674b83c8b0, type: 2}
+  - text: Everything is fine
+    character: {fileID: 11400000, guid: a9f4f0dd59ae9d04389d20674b83c8b0, type: 2}
+  - text: Nothing is going wrong
+    character: {fileID: 11400000, guid: a9f4f0dd59ae9d04389d20674b83c8b0, type: 2}
+  - text: My life is good
+    character: {fileID: 11400000, guid: a9f4f0dd59ae9d04389d20674b83c8b0, type: 2}
+  - text: Be grateful
+    character: {fileID: 11400000, guid: a9f4f0dd59ae9d04389d20674b83c8b0, type: 2}
+  - text: Be better
+    character: {fileID: 11400000, guid: a9f4f0dd59ae9d04389d20674b83c8b0, type: 2}
+  - text: Breathe in
+    character: {fileID: 11400000, guid: a9f4f0dd59ae9d04389d20674b83c8b0, type: 2}
+  - text: Breathe out
+    character: {fileID: 11400000, guid: a9f4f0dd59ae9d04389d20674b83c8b0, type: 2}
   background: {fileID: 21300000, guid: 075487c03402afe45aebeeea7409695b, type: 3}
   nextScene: {fileID: 11400000, guid: bf57f35c072419e4aacb3ae02758f7dd, type: 2}

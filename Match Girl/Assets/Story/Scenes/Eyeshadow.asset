@@ -12,6 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e848a00c6f427d43a69c91e92afbf25, type: 3}
   m_Name: Eyeshadow
   m_EditorClassIdentifier: 
-  sentences: []
+  sentences:
+  - text: Only thing you do is take picture and read magazine. You learn nothing
+      from that.
+    character: {fileID: 11400000, guid: 3066381e37b60d5438ef6cf94a3b52bc, type: 2}
   background: {fileID: 21300000, guid: 075487c03402afe45aebeeea7409695b, type: 3}
   nextScene: {fileID: 11400000, guid: 39e11f241b3209544876eb7811f9c86b, type: 2}
