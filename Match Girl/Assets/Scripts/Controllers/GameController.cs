@@ -13,7 +13,7 @@ public class GameController : MonoBehaviour
 
     private enum State
     {
-        IDLE, ANIMATE, CHOOSE
+        IDLE, ANIMATE, CHOOSE, VIDEO
     }
 
 
@@ -71,6 +71,14 @@ public class GameController : MonoBehaviour
         {
             state = State.CHOOSE;
             chooseController.SetupChoose(scene as ChooseScene);
+        }
+        else if (scene is VideoScene)
+        {
+            state = State.VIDEO;    
+            (scene as VideoScene).player.clip = (scene as VideoScene).clip;
+            (scene as VideoScene).player.Play();
+            while ((scene as VideoScene).player.isPlaying) { }
+            PlayScene((currentScene as VideoScene).nextScene);
         }
     }
 }
