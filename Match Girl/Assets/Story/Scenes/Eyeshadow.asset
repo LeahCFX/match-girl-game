@@ -17,4 +17,4 @@ MonoBehaviour:
       from that.
     character: {fileID: 11400000, guid: 3066381e37b60d5438ef6cf94a3b52bc, type: 2}
   background: {fileID: 21300000, guid: 075487c03402afe45aebeeea7409695b, type: 3}
-  nextScene: {fileID: 11400000, guid: 39e11f241b3209544876eb7811f9c86b, type: 2}
+  nextScene: {fileID: 11400000, guid: 63883c9007d3ac44aaf0bc1272427ecd, type: 2}

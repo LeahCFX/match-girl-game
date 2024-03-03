@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e848a00c6f427d43a69c91e92afbf25, type: 3}
   m_Name: Mirror
   m_EditorClassIdentifier: 
-  sentences: []
+  sentences:
+  - text: ...
+    character: {fileID: 11400000, guid: a9f4f0dd59ae9d04389d20674b83c8b0, type: 2}
   background: {fileID: 21300000, guid: 075487c03402afe45aebeeea7409695b, type: 3}
-  nextScene: {fileID: 0}
+  nextScene: {fileID: 11400000, guid: 63883c9007d3ac44aaf0bc1272427ecd, type: 2}

@@ -78,7 +78,7 @@ public class BottomBarController : MonoBehaviour
         {
             // adding to text piece by piece, type effect
             barText.text += text[wordIndex];
-            yield return new WaitForSeconds(0.05f); // speed adjust
+            yield return new WaitForSeconds(0.02f); // speed adjust
             if(++wordIndex == text.Length)
             {
                 state = State.COMPLETE;

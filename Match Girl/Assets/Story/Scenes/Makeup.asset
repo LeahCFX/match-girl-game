@@ -10,10 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1e848a00c6f427d43a69c91e92afbf25, type: 3}
-  m_Name: Lipstick
+  m_Name: Makeup
   m_EditorClassIdentifier: 
   sentences:
+  - text: All the money and time you spend on makeup and clothes you need to spend
+      on school.
+    character: {fileID: 11400000, guid: 3066381e37b60d5438ef6cf94a3b52bc, type: 2}
+  - text: Only thing you do is take picture and read magazine. You learn nothing
+      from that.
+    character: {fileID: 11400000, guid: 3066381e37b60d5438ef6cf94a3b52bc, type: 2}
   - text: I work so hard for you and you never do anything.
     character: {fileID: 11400000, guid: 3066381e37b60d5438ef6cf94a3b52bc, type: 2}
   background: {fileID: 21300000, guid: 075487c03402afe45aebeeea7409695b, type: 3}
-  nextScene: {fileID: 11400000, guid: 63883c9007d3ac44aaf0bc1272427ecd, type: 2}
+  nextScene: {fileID: 11400000, guid: ddb60163e059ea54fa2e02a70d4b2113, type: 2}

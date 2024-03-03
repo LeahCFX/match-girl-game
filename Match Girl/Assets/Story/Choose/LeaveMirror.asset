@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32c29cd3dab652c4d9aa278b24250a12, type: 3}
+  m_Name: LeaveMirror
+  m_EditorClassIdentifier: 
+  labels:
+  - item: {fileID: 21300000, guid: 455fd7aba479cf94fbe5f7aa431a1954, type: 3}
+    nextScene: {fileID: 11400000, guid: 7275d72d3b0cc854f883548def8c7c70, type: 2}
+    clicked: 0
+  - item: {fileID: 21300000, guid: 3f3317f286a21974ca561a5926321f8e, type: 3}
+    nextScene: {fileID: 11400000, guid: 7275d72d3b0cc854f883548def8c7c70, type: 2}
+    clicked: 0
+  - item: {fileID: 21300000, guid: 46d9f982e4b38c344a87f4127fb15513, type: 3}
+    nextScene: {fileID: 11400000, guid: 7275d72d3b0cc854f883548def8c7c70, type: 2}
+    clicked: 0
