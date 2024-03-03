@@ -9,7 +9,7 @@ public class BottomBarController : MonoBehaviour
     public TextMeshProUGUI personNameText;
 
     private int sentenceIndex = -1;
-    public StoryScene currentScene;
+    private StoryScene currentScene;
     private State state = State.COMPLETE;
 
     private enum State
@@ -17,10 +17,28 @@ public class BottomBarController : MonoBehaviour
         PLAYING, COMPLETE
     }
 
-    // Start is called before the first frame update
-    void Start()
+    public void PlayScene(StoryScene scene)
+    {
+        currentScene = scene;
+        sentenceIndex = -1;
+        PlayNextSentence();
+    }
+
+    public void PlayNextSentence()
     {
         StartCoroutine(TypeText(currentScene.sentences[++sentenceIndex].text));
+        personNameText.text = currentScene.sentences[sentenceIndex].character.characterName;
+        personNameText.color = currentScene.sentences[sentenceIndex].character.textColor;
+    }
+
+    public bool IsCompleted()
+    {
+        return state == State.COMPLETE;
+    }
+
+    public bool IsLastSentence()
+    {
+        return sentenceIndex + 1 == currentScene.sentences.Count;
     }
 
     private IEnumerator TypeText(string text)

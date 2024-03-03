@@ -4,7 +4,7 @@ using UnityEngine;
 [System.Serializable]
 public class Character : ScriptableObject
 {
-    public string speakerName;
+    public string characterName;
     public Color textColor;
 }
 
