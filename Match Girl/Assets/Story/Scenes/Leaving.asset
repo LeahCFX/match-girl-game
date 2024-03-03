@@ -16,4 +16,4 @@ MonoBehaviour:
   - text: Why are you still in the bathroom? Get out already.
     character: {fileID: 11400000, guid: 3066381e37b60d5438ef6cf94a3b52bc, type: 2}
   background: {fileID: 21300000, guid: f770ccf34c3ab4f42a8b1358ea8c51dc, type: 3}
-  nextScene: {fileID: 0}
+  nextScene: {fileID: 11400000, guid: 9f4367c08ed32c5489fc7f607fe1f4e1, type: 2}

@@ -8,12 +8,13 @@ public class GameController : MonoBehaviour
     public BottomBarController bottomBar;
     public BackgroundController backgroundController;
     public ChooseController chooseController;
+    public ButtonController buttonController;
 
     private State state = State.IDLE;
 
     private enum State
     {
-        IDLE, ANIMATE, CHOOSE
+        IDLE, ANIMATE, CHOOSE, BUTTON
     }
 
 
@@ -71,6 +72,11 @@ public class GameController : MonoBehaviour
         {
             state = State.CHOOSE;
             chooseController.SetupChoose(scene as ChooseScene);
+        }
+        else if (scene is ButtonScene)
+        {
+            state = State.BUTTON;
+            buttonController.SetUp((scene as ButtonScene).button);
         }
     }
 }
