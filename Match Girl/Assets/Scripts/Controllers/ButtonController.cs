@@ -4,7 +4,6 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
-using static UnityEditor.Progress;
 
 public class ButtonController : MonoBehaviour
 {
