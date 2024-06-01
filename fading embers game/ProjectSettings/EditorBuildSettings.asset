@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Menus/CreditsScene.unity
     guid: ced3f773a7909264eab7a7cafc3ef1e5
+  - enabled: 1
+    path: Assets/Scenes/Game/IRLScene.unity
+    guid: 5531b7903eff9c844931959e8289ab8f
   m_configObjects: {}
