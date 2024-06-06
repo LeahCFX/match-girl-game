@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Game/IRLScene.unity
     guid: 5531b7903eff9c844931959e8289ab8f
+  - enabled: 1
+    path: Assets/Scenes/Menus/SettingsScene.unity
+    guid: 6927a6e6c80f0b045a68e6f21e1477b8
   m_configObjects: {}
