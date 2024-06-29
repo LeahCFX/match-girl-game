@@ -8,7 +8,7 @@ public class InteractionManager : MonoBehaviour
     private const float searchRadius = 0.5f;
     public LayerMask searchLayer;
     public GameObject foundObject;
-
+ 
     void Update()
     {
         if(FindObject())
@@ -40,6 +40,7 @@ public class InteractionManager : MonoBehaviour
             return true;
         }
     }
+
 
     private void OnDrawGizmosSelected()
     {
