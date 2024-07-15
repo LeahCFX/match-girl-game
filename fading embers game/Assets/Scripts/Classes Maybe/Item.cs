@@ -5,7 +5,7 @@ using UnityEngine;
 [RequireComponent(typeof(BoxCollider2D))]
 public class Item : MonoBehaviour
 {
-    public enum ItemType {NONE, Look,  };
+    public enum ItemType {NONE, Look, PickUp};
     public ItemType type;
     public SpriteRenderer item_sr;
     public string ItemName;

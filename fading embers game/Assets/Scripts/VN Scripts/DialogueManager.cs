@@ -10,11 +10,13 @@ public class DialogueManager : MonoBehaviour
 
     [Header("Dialogue UI")]
     [SerializeField] private GameObject dialoguePanel;
-    [SerializeField] private TextMeshPro[Header("Choices UI")]
-    [SerializeField] private GameObject[] choices;
-    private TextMeshProUGUI[] choicesText;
+    [SerializeField] private TextMeshProUGUI dialogueText;
 
-   
+    [Header("Choices UI")]
+    [SerializeField] private GameObject[] choices;
+
+    [SerializeField] private TextMeshProUGUI[] choicesText;
+
 
     private Story currentStory;
     public bool dialogueIsPlaying { get; private set; }
@@ -60,7 +62,7 @@ public class DialogueManager : MonoBehaviour
 
         // handle continuing to the next line in the dialogue when submit is pressed
         // NOTE: The 'currentStory.currentChoiecs.Count == 0' part was to fix a bug after the Youtube video was made
-        if (currentStory.currentChoices.Count == 0 && InputManager.GetInstance().GetSubmitPressed())
+        if (currentStory.currentChoices.Count == 0) //check if the && InputManager.GetInstance().GetSubmitPressed()
         {
             ContinueStory();
         }
@@ -140,7 +142,7 @@ public class DialogueManager : MonoBehaviour
     {
         currentStory.ChooseChoiceIndex(choiceIndex);
         // NOTE: The below two lines were added to fix a bug after the Youtube video was made
-        InputManager.GetInstance().RegisterSubmitPressed(); // this is specific to my InputManager script
+        //check if enter is pressed //InputManager.GetInstance().RegisterSubmitPressed(); // this is specific to my InputManager script
         ContinueStory();
     }
 

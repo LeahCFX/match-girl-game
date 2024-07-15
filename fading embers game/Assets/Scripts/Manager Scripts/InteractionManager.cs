@@ -8,10 +8,10 @@ public class InteractionManager : MonoBehaviour
     private const float searchRadius = 0.5f;
     public LayerMask searchLayer;
     public GameObject foundObject;
- 
+
     void Update()
     {
-        if(FindObject())
+        if (FindObject())
         {
             if (IsKeyPressed())
             {
@@ -29,7 +29,7 @@ public class InteractionManager : MonoBehaviour
     bool FindObject()
     {
         Collider2D obj = Physics2D.OverlapCircle(searchPoint.position, searchRadius, searchLayer);
-        
+
         if (obj == null)
         {
             return false;
@@ -40,7 +40,6 @@ public class InteractionManager : MonoBehaviour
             return true;
         }
     }
-
 
     private void OnDrawGizmosSelected()
     {

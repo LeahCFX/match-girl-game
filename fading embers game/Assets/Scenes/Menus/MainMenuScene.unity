@@ -173,7 +173,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 35859251}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2c0f98cdd5c95fc47b0a32862bb3788d, type: 3}
+  m_Script: {fileID: 11500000, guid: 36a592b0d8e64214f987450a316a2ef6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: Menus/SettingsScene
@@ -712,7 +712,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 626735342}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2c0f98cdd5c95fc47b0a32862bb3788d, type: 3}
+  m_Script: {fileID: 11500000, guid: 36a592b0d8e64214f987450a316a2ef6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: Menus/CreditsScene
@@ -1391,7 +1391,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2111631824}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2c0f98cdd5c95fc47b0a32862bb3788d, type: 3}
+  m_Script: {fileID: 11500000, guid: 36a592b0d8e64214f987450a316a2ef6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: Game/MemoryScene
