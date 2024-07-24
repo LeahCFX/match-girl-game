@@ -11,7 +11,7 @@ public class InteractionManager : MonoBehaviour
 
     void Update()
     {
-        if(FindObject())
+        if (FindObject())
         {
             if (IsKeyPressed())
             {
@@ -29,7 +29,7 @@ public class InteractionManager : MonoBehaviour
     bool FindObject()
     {
         Collider2D obj = Physics2D.OverlapCircle(searchPoint.position, searchRadius, searchLayer);
-        
+
         if (obj == null)
         {
             return false;

@@ -13,4 +13,4 @@ public class NewBehaviourScript : MonoBehaviour
     {
         SceneManager.LoadScene("Scenes/" + sceneToLoad);
     }
-}
+} 
